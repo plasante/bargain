@@ -11,7 +11,7 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: bargain_development
+  database: bargains_development
   pool: 5
   username: root
   password: "123"
@@ -23,7 +23,7 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: bargain_test
+  database: bargains_test
   pool: 5
   username: root
   password: "123"
@@ -32,7 +32,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: bargain_production
+  database: bargains_production
   pool: 5
   username: root
   password: "123"
